@@ -1,0 +1,114 @@
+transaction;agent_name;agent_crunchbase_id;agent_dbpedia_id;agent_freebase_id;recipient_name;recipient_crunchbase_id;recipient_dbpedia_id;recipient_freebase_id;fin_value;currency;date
+acquisition;3Com;organization/3com;3Com;/m/08rxp;Chipcom;organization/chipcom;Chipcom;/m/025vl92;700000000;USD;28/07/1995
+acquisition;3Com;organization/3com;3Com;/m/08rxp;U.S. Robotics;organization/u-s-robotics-corporation;USRobotics;/m/01c18s;7300000000;USD;1997
+acquisition;Adobe;organization/adobe-systems;Adobe_Systems;/m/0vlf;Aldus Corp;organization/aldus-corp;Aldus;/m/012hrx;150000000;USD;1994
+acquisition;Adobe;organization/adobe-systems;Adobe_Systems;/m/0vlf;Frame Technology;organization/frame-technology;Frame_technology_(software_engineering);/m/04my8p7;500000000;USD;22/03/1996
+acquisition;Adobe;organization/adobe-systems;Adobe_Systems;/m/0vlf;Macromedia;organization/macromedia;Macromedia;/m/0180df;3400000000;USD;18/04/2005
+acquisition;Amazon;organization/amazon;Amazon.com;/m/0mgkg;Alexa;organization/alexa;Alexa_Internet;/m/02g43w_;300000000;USD;03/05/1999
+acquisition;Amazon;organization/amazon;Amazon.com;/m/0mgkg;IMDB;organization/imdb;;/m/0873c4;55000000;USD;28/05/2006
+acquisition;Amazon;organization/amazon;Amazon.com;/m/0mgkg;Joyo.com;organization/joyo-com;Amazon_China;/m/04xgnz;75000000;USD;09/08/2005
+acquisition;Amazon;organization/amazon;Amazon.com;/m/0mgkg;PlanetAll (Planet All);organization/planetall-com;PlanetAll;/m/03c1j30;93000000;USD;01/08/1998
+acquisition;Apple;organization/apple;Apple_Inc.;/m/0k8z;NeXT;organization/next;NeXT;/m/05fxn;400000000;USD;01/12/1996
+acquisition;Apple;organization/apple;Apple_Inc.;/m/0k8z;Power Computing Corporation (Power Computing of Austin);organization/power-computing;Power_Computing_Corporation;/m/01rtbw;100000000;USD;07/09/1997
+acquisition;Ask.com;organization/ask-com;Ask.com;/m/027j1v;Teoma Technologies;;;/m/02g692;4000000;USD;2001
+acquisition;Cisco;organization/cisco;Cisco_Systems;/m/0dmtp;Airespace;organization/airespace;Cisco_Systems;/m/08trzc;450000000;USD;01/01/2005
+acquisition;Cisco;organization/cisco;Cisco_Systems;/m/0dmtp;Aironet Wireless Communications;organization/aironet-wireless-communications;Aironet_Wireless_Communications;/m/026wp6s;799000000;USD;10/11/1999
+acquisition;Cisco;organization/cisco;Cisco_Systems;/m/0dmtp;Andiamo Systems;organization/andiamo-systems;-;/m/0413b_t;74000000;USD;04/02/2004
+acquisition;Cisco;organization/cisco;Cisco_Systems;/m/0dmtp;ArrowPoint Communications;organization/arrowpoint-communications;-;/m/0413bsl;5700000000;USD;06/05/2000
+acquisition;Cisco;organization/cisco;Cisco_Systems;/m/0dmtp;CALISTA;organization/calista;Calista_Corporation;/m/0bbwvlw;135000000;USD;02/09/2000
+acquisition;Cisco;organization/cisco;Cisco_Systems;/m/0dmtp;Cerent;organization/cerent;Cerent_Corporation;/m/02682dm;7300000000;USD;01/11/1999
+acquisition;Cisco;organization/cisco;Cisco_Systems;/m/0dmtp;Clarity Wireless;organization/clarity-wireless;Clarity_Wireless;/m/02_9176;52000000;USD;1998
+acquisition;Cisco;organization/cisco;Cisco_Systems;/m/0dmtp;Combinet;organization/combinet;-;/m/0413b21;114000000;USD;14/08/1995
+acquisition;Cisco;organization/cisco;Cisco_Systems;/m/0dmtp;Crescendo Communications;organization/crescendo-communications;Cisco_Catalyst;/m/04hzycq;89000000;USD;23/06/2002
+acquisition;Cisco;organization/cisco;Cisco_Systems;/m/0dmtp;ExiO Communications;organization/exio-communications;-;/m/0413bzd;155000000;USD;15/12/2000
+acquisition;Cisco;organization/cisco;Cisco_Systems;/m/0dmtp;Fibex Systems;organization/fibex-systems;-;/m/0413bd9;320000000;USD;1999
+acquisition;Cisco;organization/cisco;Cisco_Systems;/m/0dmtp;GeoTel Communications;organization/geotel-communications;GeoTel_Communications;/m/0413bd_;2000000000;USD;14/04/1999
+acquisition;Cisco;organization/cisco;Cisco_Systems;/m/0dmtp;HyNEX;organization/hynex;-;/m/0413bvb;1370000000;USD;2001
+acquisition;Cisco;organization/cisco;Cisco_Systems;/m/0dmtp;Internet Engineering Group;organization/internet-engineering-group;-;/m/0413blt;1370000000;USD;2001
+acquisition;Cisco;organization/cisco;Cisco_Systems;/m/0dmtp;IPmobile;organization/ipmobile;IPmobile;/m/0413bx1;1370000000;USD;2001
+acquisition;Cisco;organization/cisco;Cisco_Systems;/m/0dmtp;Kalpana;organization/kalpana;Kalpana_(company);/m/03hhycl;204000000;USD;25/10/1994
+acquisition;Cisco;organization/cisco;Cisco_Systems;/m/0dmtp;Komodo Technology;organization/komodo-technology;Komodo_Technology;/m/0413bwc;1370000000;USD;2001
+acquisition;Cisco;organization/cisco;Cisco_Systems;/m/0dmtp;Monterey Networks;organization/monterey-networks;-;/m/03dh44c;7400000000;USD;26/08/1999
+acquisition;Cisco;organization/cisco;Cisco_Systems;/m/0dmtp;Netiverse;organization/netiverse;-;/m/0413bvp;1370000000;USD;2001
+acquisition;Cisco;organization/cisco;Cisco_Systems;/m/0dmtp;NetSys Technologies;organization/netsys-technologies;Netsys_Technologies;/m/0b9jq8;79000000;USD;01/10/1996
+acquisition;Cisco;organization/cisco;Cisco_Systems;/m/0dmtp;Pirelli Optical Systems;organization/pirelli-optical-systems;Pirelli_Optical_Systems;/m/0413bm4;2850000000;USD;10/05/2000
+acquisition;Cisco;organization/cisco;Cisco_Systems;/m/0dmtp;Qeyton Systems;organization/qeyton-systems;Qeyton_Systems;/m/0413bsy;1390000000;USD;09/08/2000
+acquisition;Cisco;organization/cisco;Cisco_Systems;/m/0dmtp;StrataCom;organization/stratacom;StrataCom;/m/04k967;4000000000;USD;1996
+acquisition;Cisco;organization/cisco;Cisco_Systems;/m/0dmtp;Tasmania Network Systems;organization/tasmania-network-systems;Tasmania_Network_Systems;/m/0413bhf;135000000;USD;09/02/2000
+acquisition;Cisco;organization/cisco;Cisco_Systems;/m/0dmtp;The Linksys Group;organization/the-linksys-group;Linksys;/m/02jrk7;480000000;USD;2003
+acquisition;Cisco;organization/cisco;Cisco_Systems;/m/0dmtp;Worldwide Data Systems;organization/worldwide-data-systems;-;/m/0413bl3;135000000;USD;09/02/2000
+acquisition;CNET Networks;organization/cnetnetworks;CNET;/m/0by1jyj;MySimon.com;organization/mysimon-inc;MySimon;/m/0cm65x;700000000;USD;01/01/2000
+acquisition;CNET Networks;organization/cnetnetworks;CNET;/m/0by1jyj;Webshots;organization/webshots;Webshots;/m/08p4dt;70000000;USD;26/07/2004
+acquisition;eBay;organization/ebay;EBay;/m/0z90c;Baazee;organization/baazee;-;/m/09m0md6;50000000;USD;01/06/2004
+acquisition;eBay;organization/ebay;EBay;/m/0z90c;Billpoint;organization/billpoint;Billpoint;/m/07895_;125000000;USD;1998
+acquisition;eBay;organization/ebay;EBay;/m/0z90c;Eachnet;organization/eachnet;-;/m/09mw_by;180000000;USD;08/08/2005
+acquisition;eBay;organization/ebay;EBay;/m/0z90c;PayPal;organization/paypal;PayPal;/m/01btsf;1500000000;USD;2002
+acquisition;eBay;organization/ebay;EBay;/m/0z90c;Shopping.com;organization/shopping-com;Shopping.com;/m/08h7vp;620000000;USD;2005
+acquisition;eBay;organization/ebay;EBay;/m/0z90c;Skype;organization/skype;Skype_Technologies;/m/06whf7;2600000000;USD;2005
+acquisition;Electronic Arts;organization/electronicarts;Electronic_Arts;/m/01n073;Broderbund Software;organization/broderbund-software;Brøderbund;/m/01qky9;400000000;USD;04/05/1994
+acquisition;Electronic Arts;organization/electronicarts;Electronic_Arts;/m/01n073;Digital Illusions;organization/digital-illusions;EA_Digital_Illusions_CE;/m/02g5v2;9000000;USD;13/02/2003
+acquisition;Electronic Arts;organization/electronicarts;Electronic_Arts;/m/01n074;Distinctive Software;organization/distinctive-software;Distinctive_Software;/m/05ypjk;10000000;USD;19/06/1991
+acquisition;Electronic Arts;organization/electronicarts;Electronic_Arts;/m/01n074;Jamdat Mobile;organization/jamdatmobile;EA_Mobile;/m/0yszghq;680000000;USD;2006
+acquisition;Fox Interactive Media;organization/fox-interactive-media;News_Corp._Digital_Media;/m/0sxdg;IGN Entertainment;organization/ignentertainment;IGN;/m/02_8y7w;650000000;USD;09/09/2005
+acquisition;Fox Interactive Media;organization/fox-interactive-media;News_Corp._Digital_Media;/m/0sxdg;Scout.com;organization/scout-com;Scout.com;/m/04jpnm5;60000000;USD;16/08/2005
+acquisition;Google;organization/google;Google;/m/045c7b;Baidu (2.5 percent stake in baidu.com);organization/baidu;Baidu;/m/05mk8_;5000000;USD;08/08/2005
+acquisition;Google;organization/google;Google;/m/045c7b;dMarc Broadcasting;organization/dmarcbroadcasting;DMarc_Broadcasting;/m/03wjbbx;1240000000;USD;15/01/2006
+acquisition;Google;organization/google;Google;/m/045c7b;DoubleClick;organization/doubleclick;DoubleClick;organization/doubleclick;3100000000;USD;30/04/2007
+acquisition;Google;organization/google;Google;/m/045c7b;Mr. Neven's company;organization/neven-vision;-;/m/09mxlyn;40000000;USD;18/01/2007
+acquisition;Google;organization/google;Google;/m/045c7b;Picasa;organization/picasa;Picasa;/m/09n328w;30;USD;20/01/2005
+acquisition;Google;organization/google;Google;/m/045c7b;Urchin Software;organization/urchin-software;Urchin_(software);/m/08wl3b;30000000;USD;14/11/2005
+acquisition;Google;organization/google;Google;/m/045c7b;YouTube;organization/youtube;YouTube;/m/09jcvs;1650000000;USD;01/10/2006
+acquisition;Hewlett-Packard;organization/hewlett-packard;Hewlett-Packard;/m/03mnk;Apollo Computer;organization/apollo-computer;Apollo_Computer;/m/018s_4;600000000;USD;13/04/1989
+acquisition;Hewlett-Packard;organization/hewlett-packard;Hewlett-Packard;/m/03mnk;Bluestone Software;organization/bluestone-software;-;-;467000000;USD;25/10/2000
+acquisition;Hewlett-Packard;organization/hewlett-packard;Hewlett-Packard;/m/03mnk;Compaq;organization/compaq;Compaq;/m/025j1;25000000000;USD;04/09/2001
+acquisition;Hewlett-Packard;organization/hewlett-packard;Hewlett-Packard;/m/03mnk;Convex Computer;organization/convex-computer;Convex_Computer;/m/0kgm8;18000000;USD;19/03/1992
+acquisition;Hewlett-Packard;organization/hewlett-packard;Hewlett-Packard;/m/03mnk;Mercury Interactive;organization/mercury-interactive;Mercury_Interactive;/m/07lhf4;4500000000;USD;27/08/2006
+acquisition;Hewlett-Packard;organization/hewlett-packard;Hewlett-Packard;/m/03mnk;StorageApps;organization/storageapps;-;-;350000000;USD;26/07/2001
+acquisition;IBM;organization/ibm;IBM;/m/03sc14;Ascential Software;organization/ascential-software;-;/m/02_1ydc;1100000000;USD;15/03/2005
+acquisition;IBM;organization/ibm;IBM;/m/03sc8;FileNet Corporation;organization/filenet-corporation;FileNet;/m/05k6mf;1600000000;USD;11/08/2006
+acquisition;IBM;organization/ibm;IBM;/m/03sc8;Informix;organization/informix;IBM_Informix;/m/0knxkfp;1000000000;USD;2001
+acquisition;IBM;organization/ibm;IBM;/m/03sc8;Internet Security Systems;organization/internet-security-systems;IBM_Internet_Security_Systems;/m/01c6n6;1300000000;USD;24/08/2006
+acquisition;IBM;organization/ibm;IBM;/m/03sc8;Lotus Development Corporation;organization/lotus-development-corporation;Lotus_Software;/m/0q4jd;3520000000;USD;1995
+acquisition;IBM;organization/ibm;IBM;/m/03sc8;Micromuse;organization/micromuse;-;/m/0n52vd_;865000000;USD;21/12/2005
+acquisition;IBM;organization/ibm;IBM;/m/03sc8;MRO Software;organization/mro-software;MRO_Software;/m/05tnj6;740000000;USD;04/08/2006
+acquisition;IBM;organization/ibm;IBM;/m/03sc8;PwC Consulting;organization/pwc-consulting;PricewaterhouseCoopers;/m/06vmhn4;3500000000;USD;07/12/2002
+acquisition;IBM;organization/ibm;IBM;/m/03sc8;Rational Software;organization/rational-software;Rational_Software;/m/01xtmx;2100000000;USD;15/12/2002
+acquisition;IBM;organization/ibm;IBM;/m/03sc8;Tivoli Systems;organization/tivoli-systems;Tivoli_Software;/m/025stbf;783000000;USD;1996
+acquisition;Intel;organization/intel;Intel;/m/03s7h;Chips and Technologies;organization/chips-and-technologies;Chips_and_Technologies;/m/02ndpc;384000000;USD;03/08/1997
+acquisition;Intel;organization/intel;Intel;/m/03s7h;Digital Equipment Corporation;organization/digital-equipment-corporation;Digital_Equipment_Corporation;/m/026v5;700000000;USD;28/10/1997
+acquisition;Intel;organization/intel;Intel;/m/03s7h;Kimo;organization/kimo;-;/m/043tzrm;132300000;USD;10/11/2000
+acquisition;Intel;organization/intel;Intel;/m/03s7h;Level One Communications;organization/level-one-communications;-;-;2200000000;USD;05/03/1999
+acquisition;Intel;organization/intel;Intel;/m/03s7h;Musicmatch;organization/musicmatch;-;/m/040qzv;160000000;USD;14/09/2004
+acquisition;Intel;organization/intel;Intel;/m/03s7h;Oddpost;organization/oddpost;Oddpost;/m/03wh3m;30000000;USD;13/07/2004
+acquisition;Intel;organization/intel;Intel;/m/03s7h;Xircom;organization/xircom;Xircom;/m/02qpxf4;52000000;USD;16/01/1997
+acquisition;Nike;organization/nike;Nike;/m/0lwkh;Converse;organization/converse;Converse_(shoe_company);/m/0140d2;305000000;USD;10/07/2003
+acquisition;Nokia;organization/nokia;Nokia;/m/05b5c;Ramp Networks;organization/ramp-networks;-;-;126000000;USD;08/12/2000
+acquisition;Oracle Corporation;organization/oracle;Oracle_Corporation;/m/05njw;eTravel;e-travel;-;-;35000000;USD;1999
+acquisition;Oracle Corporation;organization/oracle;Oracle_Corporation;/m/05njw;Hyperion Solutions;organization/hyperion-solutions;Oracle_Hyperion;/m/069xr6;3100000000;USD;01/03/2007
+acquisition;Oracle Corporation;organization/oracle;Oracle_Corporation;/m/05njw;PeopleSoft;organization/PeopleSoft;PeopleSoft;/m/01481_;10300000000;USD;01/12/2004
+acquisition;Oracle Corporation;organization/oracle;Oracle_Corporation;/m/05njw;Retek;organization/retek;-;/m/03g3tj2;631000000;USD;23/09/2005
+acquisition;Oracle Corporation;organization/oracle;Oracle_Corporation;/m/05njw;Siebel Systems;organization/siebel;Siebel_Systems;/m/04svnf;5850000000;USD;01/01/2006
+acquisition;Real Networks;organization/realnetworks;RealNetworks;/m/0h1cy;Xing Technology;organization/xing-technology;Xing_Technology;/m/0875s4;75000000;USD;14/04/1999
+acquisition;Symantec;organization/symantec;Symantec;/m/01zpmq;@Stake;organization/stake;@stake;/m/065wqf;48000000;USD;14/12/2004
+acquisition;Symantec;organization/symantec;Symantec;/m/01zpmq;Brightmail;organization/brightmail-symantec;Brightmail;/m/04135jg;370000000;USD;05/06/2005
+acquisition;Symantec;organization/symantec;Symantec;/m/01zpmq;Peter Norton Computing;organization/peter-norton-computing;Peter_Norton_Computing;/m/04gb0v;70000000;USD;15/05/1990
+acquisition;Symantec;organization/symantec;Symantec;/m/01zpmq;Veritas;organization/veritas-software;Veritas_Software;/m/028kq7;13500000000;USD;02/01/2005
+acquisition;The New York Times;organization/newyorktimes;The_New_York_Times;/m/07k2d;About.com;organization/about-com;About.com;/m/09lpm;410000000;USD;2005
+acquisition;The New York Times;organization/newyorktimes;The_New_York_Times;/m/07k2d;Telegram & Gazette;-;Telegram_%26_Gazette;/m/07_d97;295000000;USD;15/10/1999
+acquisition;The Walt Disney Company;organization/the-walt-disney-company;The_Walt_Disney_Company;/m/09b3v;ABC;organization/abc;American_Broadcasting_Company;/m/0gsg7;19000000000;USD;01/08/1995
+acquisition;The Walt Disney Company;organization/the-walt-disney-company;The_Walt_Disney_Company;/m/09b3v;Child World;-;Child_World;/m/0d76k3;157000000;USD;31/07/1990
+acquisition;The Walt Disney Company;organization/the-walt-disney-company;The_Walt_Disney_Company;/m/09b3v;Fox Family Worldwide;organization/fox-family-worldwide;ABC_Family_Worldwide_Inc.;/m/0cb80t;3000000000;USD;01/07/2001
+acquisition;The Walt Disney Company;organization/the-walt-disney-company;The_Walt_Disney_Company;/m/09b3v;Henson (Jim Henson Productions);-;The_Jim_Henson_Company;/m/03h3y_;150000000;USD;19/12/1991
+acquisition;The Walt Disney Company;organization/the-walt-disney-company;The_Walt_Disney_Company;/m/09b3v;Infoseek Inc.;organization/infoseek-inc;Infoseek;/m/0462j5;900000000;USD;07/06/1998
+acquisition;The Walt Disney Company;organization/the-walt-disney-company;The_Walt_Disney_Company;/m/09b3v;Pixar;organization/pixar;Pixar;/m/0kk9v;7400000000;USD;28/01/2006
+acquisition;UPS;organization/ups;United_Parcel_Service;/m/01d734;IML Air Services Group Ltd.;-;-;-;37000000;USD;20/01/1989
+acquisition;Yahoo!;organization/yahoo;Yahoo!;/m/019rl7;Broadcast.com;organization/broadcast-com;Broadcast.com;/m/02cj1w;5000000000;USD;25/11/2006
+acquisition;Yahoo!;organization/yahoo;Yahoo!;/m/019rl13;eGroups;organization/egroups;EGroups;/m/03jzfv;720000000;USD;2001
+acquisition;Yahoo!;organization/yahoo;Yahoo!;/m/019rl6;GeoCities;organization/geocities;GeoCities;/m/02fk08;3600000000;USD;14/02/1999
+acquisition;Yahoo!;organization/yahoo;Yahoo!;/m/019rl8;Hotjobs;organization/hotjobs;Yahoo!_HotJobs;/m/08fd_2;436000000;USD;13/12/2001
+acquisition;Yahoo!;organization/yahoo;Yahoo!;/m/019rl10;Inktomi;organization/inktomi;Inktomi;/m/0n62_;235000000;USD;24/12/2002
+acquisition;Yahoo!;organization/yahoo;Yahoo!;/m/019rl12;Online Anywhere;organization/online-anywhere;Online_Anywhere;/m/043t_v3;80000000;USD;1999
+acquisition;Yahoo!;organization/yahoo;Yahoo!;/m/019rl9;Overture Services;organization/overture-services;Overture_Services,_Inc.;/m/09n74yt;1600000000;USD;2003
+acquisition;Yahoo!;organization/yahoo;Yahoo!;/m/019rl11;Right Media;organization/right-media;Right_Media;/m/09s96s;680000000;USD;19/05/2007
+acquisition;Yahoo!;organization/yahoo;Yahoo!;/m/019rl15;Webcal;organization/webcal;Webcal;/m/07b5rn;12000000;USD;01/07/1998
+acquisition;Yahoo!;organization/yahoo;Yahoo!;/m/019rl14;Yoyodyne Entertainment;organization/yoyodyne-entertainment;Yoyodyne;/m/03jjb9;250000000;USD;1998

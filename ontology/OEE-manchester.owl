@@ -1,0 +1,1133 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+
+
+Ontology: <http://transaction-ontology.org/oee.owl>
+
+
+Annotations: 
+    rdfs:seeAlso "http://transaction-ontology.org/"^^xsd:string,
+    rdfs:label "Ontology of Monetary Transactions"^^xsd:string
+
+AnnotationProperty: rdfs:seeAlso
+
+    
+AnnotationProperty: rdfs:isDefinedBy
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:anyURI
+
+    
+Datatype: xsd:boolean
+
+    
+DataProperty: <http://transaction-ontology.org/oee.owl#isVerbPredicate>
+
+    DisjointWith: 
+        <http://transaction-ontology.org/oee.owl#isNounPredicate>
+    
+    
+DataProperty: <http://transaction-ontology.org/oee.owl#isNounPredicate>
+
+    DisjointWith: 
+        <http://transaction-ontology.org/oee.owl#isVerbPredicate>
+    
+    
+Class: <http://transaction-ontology.org/oee.owl#Acquire>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/acquire-v.html"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://transaction-ontology.org/oee.owl#Take>
+    
+    
+Class: <http://transaction-ontology.org/oee.owl#Clear>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/clear-v.html"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://transaction-ontology.org/oee.owl#Yield>
+    
+    
+Class: <http://transaction-ontology.org/oee.owl#Accept>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/accept-v.html"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://transaction-ontology.org/oee.owl#Receive>
+    
+    
+Class: <http://transaction-ontology.org/oee.owl#Take_over>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/take-v.html"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://transaction-ontology.org/oee.owl#Purchase>
+    
+    
+Class: <http://transaction-ontology.org/oee.owl#Gross>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/gross-v.html"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://transaction-ontology.org/oee.owl#Earn>
+    
+    
+Class: <http://transaction-ontology.org/oee.owl#Consume_(Spend)>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/consume-v.html"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://transaction-ontology.org/oee.owl#Spend>
+    
+    
+Class: <http://transaction-ontology.org/oee.owl#Inherit>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/inherit-v.html"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://transaction-ontology.org/oee.owl#Receive>
+    
+    
+Class: <http://transaction-ontology.org/oee.owl#Turn>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/turn-v.html"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://transaction-ontology.org/oee.owl#Acquire>
+    
+    
+Class: <http://transaction-ontology.org/oee.owl#Subscribe>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/subscribe-v.html"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://transaction-ontology.org/oee.owl#Purchase>
+    
+    
+Class: <http://transaction-ontology.org/oee.owl#Waste>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/waste-v.html"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://transaction-ontology.org/oee.owl#Spend>
+    
+    
+Class: <http://transaction-ontology.org/oee.owl#Trade>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/trade-v.html"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://transaction-ontology.org/oee.owl#Sell>
+    
+    
+Class: <http://transaction-ontology.org/oee.owl#Fund>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/fund-v.html"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://transaction-ontology.org/oee.owl#Invest>
+    
+    
+Class: <http://transaction-ontology.org/oee.owl#Donate>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/donate-v.html"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://transaction-ontology.org/oee.owl#Give>
+    
+    
+Class: <http://transaction-ontology.org/oee.owl#Obtain>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/obtain-v.html"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://transaction-ontology.org/oee.owl#Acquire>
+    
+    
+Class: <http://transaction-ontology.org/oee.owl#Clear_(Sell)>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/clear-v.html"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://transaction-ontology.org/oee.owl#Sell>
+    
+    
+Class: <http://transaction-ontology.org/oee.owl#Increment_Economic_Event_Type>
+
+    SubClassOf: 
+        <http://transaction-ontology.org/oee.owl#Economic_Event_Type>
+    
+    DisjointWith: 
+        <http://transaction-ontology.org/oee.owl#Decrement_Economic_Event_Type>
+    
+    
+Class: <http://transaction-ontology.org/oee.owl#Raise>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/raise-v.html"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://transaction-ontology.org/oee.owl#Collect>
+    
+    
+Class: <http://transaction-ontology.org/oee.owl#Secure>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/secure-v.html"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://transaction-ontology.org/oee.owl#Obtain>
+    
+    
+Class: <http://transaction-ontology.org/oee.owl#Net>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/net-v.html"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://transaction-ontology.org/oee.owl#Yield>
+    
+    
+Class: <http://transaction-ontology.org/oee.owl#Take>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/take-v.html"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://transaction-ontology.org/oee.owl#Increment_Economic_Event_Type>
+    
+    Individuals: 
+        _:http://transaction-ontology.org/oee.owl#genid1430718473587067000
+    
+    
+Class: <http://transaction-ontology.org/oee.owl#Buy>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/buy-v.html"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://transaction-ontology.org/oee.owl#Acquire>
+    
+    
+Class: <http://transaction-ontology.org/oee.owl#Borrow>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/borrow-v.html"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://transaction-ontology.org/oee.owl#Accept>
+    
+    
+Class: <http://transaction-ontology.org/oee.owl#Buy_back>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/buy-v.html"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://transaction-ontology.org/oee.owl#Purchase>
+    
+    
+Class: <http://transaction-ontology.org/oee.owl#Retail>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/retail-v.html"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://transaction-ontology.org/oee.owl#Sell>
+    
+    
+Class: <http://transaction-ontology.org/oee.owl#Receive>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/receive-v.html"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://transaction-ontology.org/oee.owl#Acquire>
+    
+    
+Class: <http://transaction-ontology.org/oee.owl#Bribe>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/bribe-v.html"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://transaction-ontology.org/oee.owl#Pay>
+    
+    
+Class: <http://transaction-ontology.org/oee.owl#Decrement_Economic_Event_Type>
+
+    SubClassOf: 
+        <http://transaction-ontology.org/oee.owl#Economic_Event_Type>
+    
+    DisjointWith: 
+        <http://transaction-ontology.org/oee.owl#Increment_Economic_Event_Type>
+    
+    
+Class: <http://transaction-ontology.org/oee.owl#Clean_up>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/clean-v.html"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://transaction-ontology.org/oee.owl#Profit>
+    
+    
+Class: <http://transaction-ontology.org/oee.owl#Collect>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/collect-v.html"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://transaction-ontology.org/oee.owl#Take>
+    
+    
+Class: <http://transaction-ontology.org/oee.owl#Speculate>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/speculate-v.html"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://transaction-ontology.org/oee.owl#Invest>
+    
+    
+Class: <http://transaction-ontology.org/oee.owl#Outsource>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/outsource-v.html"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://transaction-ontology.org/oee.owl#Source>
+    
+    
+Class: <http://transaction-ontology.org/oee.owl#Source>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/source-v.html"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://transaction-ontology.org/oee.owl#Obtain>
+    
+    
+Class: <http://transaction-ontology.org/oee.owl#Yield>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/yield-v.html"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://transaction-ontology.org/oee.owl#Take_in>
+    
+    
+Class: <http://transaction-ontology.org/oee.owl#Invest>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/invest-v.html"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://transaction-ontology.org/oee.owl#Spend>
+    
+    
+Class: <http://transaction-ontology.org/oee.owl#Take_in>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/take-v.html"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://transaction-ontology.org/oee.owl#Get>
+    
+    
+Class: <http://transaction-ontology.org/oee.owl#Give>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/give-v.html"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://transaction-ontology.org/oee.owl#Decrement_Economic_Event_Type>
+    
+    
+Class: <http://transaction-ontology.org/oee.owl#Market>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/market-v.html"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://transaction-ontology.org/oee.owl#Sell>
+    
+    
+Class: <http://transaction-ontology.org/oee.owl#Fundraise>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/fundraise-v.html"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://transaction-ontology.org/oee.owl#Raise>
+    
+    
+Class: <http://transaction-ontology.org/oee.owl#Realize>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/realize-v.html"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://transaction-ontology.org/oee.owl#Get>
+    
+    
+Class: <http://transaction-ontology.org/oee.owl#Get>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/get-v.html"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://transaction-ontology.org/oee.owl#Take>
+    
+    
+Class: <http://transaction-ontology.org/oee.owl#Pay>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/pay-v.html"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://transaction-ontology.org/oee.owl#Give>
+    
+    
+Class: <http://transaction-ontology.org/oee.owl#Economic_Event_Type>
+
+    
+Class: <http://transaction-ontology.org/oee.owl#Make_(Earn)>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/make-v.html"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://transaction-ontology.org/oee.owl#Get>
+    
+    
+Class: <http://transaction-ontology.org/oee.owl#Win_back>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/win-v.html"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://transaction-ontology.org/oee.owl#Get>
+    
+    
+Class: <http://transaction-ontology.org/oee.owl#Shop>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/shop-v.html"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://transaction-ontology.org/oee.owl#Obtain>
+    
+    
+Class: <http://transaction-ontology.org/oee.owl#Take_(Buy)>
+
+    SubClassOf: 
+        <http://transaction-ontology.org/oee.owl#Buy>
+    
+    
+Class: <http://transaction-ontology.org/oee.owl#Deposit>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/deposit-v.html"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://transaction-ontology.org/oee.owl#Give>
+    
+    
+Class: <http://transaction-ontology.org/oee.owl#Spend>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/spend-v.html"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://transaction-ontology.org/oee.owl#Pay>
+    
+    
+Class: <http://transaction-ontology.org/oee.owl#Earn>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/earn-v.html
+"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://transaction-ontology.org/oee.owl#Get>
+    
+    
+Class: <http://transaction-ontology.org/oee.owl#Contribute>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/contribute-v.html"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://transaction-ontology.org/oee.owl#Give>
+    
+    
+Class: <http://transaction-ontology.org/oee.owl#Profit>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/profit-v.html"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://transaction-ontology.org/oee.owl#Earn>
+    
+    
+Class: <http://transaction-ontology.org/oee.owl#Sell>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/sell-v.html"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://transaction-ontology.org/oee.owl#Give>
+    
+    
+Class: <http://transaction-ontology.org/oee.owl#Purchase>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/purchase-v.html"^^xsd:anyURI
+    
+    SubClassOf: 
+        <http://transaction-ontology.org/oee.owl#Acquire>
+    
+    
+Individual: <http://transaction-ontology.org/oee.owl#Get>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/get-v.html"^^xsd:anyURI
+    
+    Types: 
+        <http://transaction-ontology.org/oee.owl#Get>
+    
+    Facts:  
+     <http://transaction-ontology.org/oee.owl#isVerbPredicate>  true
+    
+    
+Individual: <http://transaction-ontology.org/oee.owl#Pay>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/pay-v.html"^^xsd:anyURI
+    
+    Types: 
+        <http://transaction-ontology.org/oee.owl#Pay>
+    
+    Facts:  
+     <http://transaction-ontology.org/oee.owl#isVerbPredicate>  true
+    
+    
+Individual: <http://transaction-ontology.org/oee.owl#Speculate>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/speculate-v.html"^^xsd:anyURI
+    
+    Types: 
+        <http://transaction-ontology.org/oee.owl#Speculate>
+    
+    Facts:  
+     <http://transaction-ontology.org/oee.owl#isVerbPredicate>  true
+    
+    
+Individual: <http://transaction-ontology.org/oee.owl#Fundraise>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/fundraise-v.html"^^xsd:anyURI
+    
+    Types: 
+        <http://transaction-ontology.org/oee.owl#Fundraise>
+    
+    Facts:  
+     <http://transaction-ontology.org/oee.owl#isVerbPredicate>  true
+    
+    
+Individual: <http://transaction-ontology.org/oee.owl#Give>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/give-v.html"^^xsd:anyURI
+    
+    Types: 
+        <http://transaction-ontology.org/oee.owl#Give>
+    
+    Facts:  
+     <http://transaction-ontology.org/oee.owl#isVerbPredicate>  true
+    
+    
+Individual: <http://transaction-ontology.org/oee.owl#Subscribe>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/subscribe-v.html"^^xsd:anyURI
+    
+    Types: 
+        <http://transaction-ontology.org/oee.owl#Subscribe>
+    
+    Facts:  
+     <http://transaction-ontology.org/oee.owl#isVerbPredicate>  true
+    
+    
+Individual: <http://transaction-ontology.org/oee.owl#Outsource>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/outsource-v.html"^^xsd:anyURI
+    
+    Types: 
+        <http://transaction-ontology.org/oee.owl#Outsource>
+    
+    Facts:  
+     <http://transaction-ontology.org/oee.owl#isVerbPredicate>  true
+    
+    
+Individual: <http://transaction-ontology.org/oee.owl#Receive>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/receive-v.html"^^xsd:anyURI
+    
+    Types: 
+        <http://transaction-ontology.org/oee.owl#Receive>
+    
+    Facts:  
+     <http://transaction-ontology.org/oee.owl#isVerbPredicate>  true
+    
+    
+Individual: <http://transaction-ontology.org/oee.owl#Fund>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/fund-v.html"^^xsd:anyURI
+    
+    Types: 
+        <http://transaction-ontology.org/oee.owl#Fund>
+    
+    Facts:  
+     <http://transaction-ontology.org/oee.owl#isVerbPredicate>  true
+    
+    
+Individual: <http://transaction-ontology.org/oee.owl#Take_(buy)>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/take-v.html"^^xsd:anyURI
+    
+    Types: 
+        <http://transaction-ontology.org/oee.owl#Take_(Buy)>
+    
+    Facts:  
+     <http://transaction-ontology.org/oee.owl#isVerbPredicate>  true
+    
+    
+Individual: <http://transaction-ontology.org/oee.owl#Obtain>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/obtain-v.html"^^xsd:anyURI
+    
+    Types: 
+        <http://transaction-ontology.org/oee.owl#Obtain>
+    
+    Facts:  
+     <http://transaction-ontology.org/oee.owl#isVerbPredicate>  true
+    
+    
+Individual: <http://transaction-ontology.org/oee.owl#Profit>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/profit-v.html"^^xsd:anyURI
+    
+    Types: 
+        <http://transaction-ontology.org/oee.owl#Profit>
+    
+    Facts:  
+     <http://transaction-ontology.org/oee.owl#isVerbPredicate>  true
+    
+    
+Individual: <http://transaction-ontology.org/oee.owl#Buy>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/buy-v.html"^^xsd:anyURI
+    
+    Types: 
+        <http://transaction-ontology.org/oee.owl#Buy>
+    
+    Facts:  
+     <http://transaction-ontology.org/oee.owl#isVerbPredicate>  true
+    
+    
+Individual: <http://transaction-ontology.org/oee.owl#Accept>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/accept-v.html"^^xsd:anyURI
+    
+    Types: 
+        <http://transaction-ontology.org/oee.owl#Accept>
+    
+    Facts:  
+     <http://transaction-ontology.org/oee.owl#isVerbPredicate>  true
+    
+    
+Individual: <http://transaction-ontology.org/oee.owl#Donate>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/donate-v.html"^^xsd:anyURI
+    
+    Types: 
+        <http://transaction-ontology.org/oee.owl#Donate>
+    
+    Facts:  
+     <http://transaction-ontology.org/oee.owl#isVerbPredicate>  true
+    
+    
+Individual: <http://transaction-ontology.org/oee.owl#Invest>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/invest-v.html"^^xsd:anyURI
+    
+    Types: 
+        <http://transaction-ontology.org/oee.owl#Invest>
+    
+    Facts:  
+     <http://transaction-ontology.org/oee.owl#isVerbPredicate>  true
+    
+    
+Individual: <http://transaction-ontology.org/oee.owl#Yield>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/yield-v.html"^^xsd:anyURI
+    
+    Types: 
+        <http://transaction-ontology.org/oee.owl#Yield>
+    
+    Facts:  
+     <http://transaction-ontology.org/oee.owl#isVerbPredicate>  true
+    
+    
+Individual: <http://transaction-ontology.org/oee.owl#Clean_up>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/clean-v.html"^^xsd:anyURI
+    
+    Types: 
+        <http://transaction-ontology.org/oee.owl#Clean_up>
+    
+    Facts:  
+     <http://transaction-ontology.org/oee.owl#isVerbPredicate>  true
+    
+    
+Individual: <http://transaction-ontology.org/oee.owl#Inherit>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/inherit-v.html"^^xsd:anyURI
+    
+    Types: 
+        <http://transaction-ontology.org/oee.owl#Inherit>
+    
+    Facts:  
+     <http://transaction-ontology.org/oee.owl#isVerbPredicate>  true
+    
+    
+Individual: <http://transaction-ontology.org/oee.owl#Market>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/market-v.html"^^xsd:anyURI
+    
+    Types: 
+        <http://transaction-ontology.org/oee.owl#Market>
+    
+    Facts:  
+     <http://transaction-ontology.org/oee.owl#isVerbPredicate>  true
+    
+    
+Individual: <http://transaction-ontology.org/oee.owl#Shop>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/shop-v.html"^^xsd:anyURI
+    
+    Types: 
+        <http://transaction-ontology.org/oee.owl#Shop>
+    
+    Facts:  
+     <http://transaction-ontology.org/oee.owl#isVerbPredicate>  true
+    
+    
+Individual: <http://transaction-ontology.org/oee.owl#Contribute>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/contribute-v.html"^^xsd:anyURI
+    
+    Types: 
+        <http://transaction-ontology.org/oee.owl#Contribute>
+    
+    Facts:  
+     <http://transaction-ontology.org/oee.owl#isVerbPredicate>  true
+    
+    
+Individual: <http://transaction-ontology.org/oee.owl#Take_over>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/take-v.html"^^xsd:anyURI
+    
+    Types: 
+        <http://transaction-ontology.org/oee.owl#Take_over>
+    
+    Facts:  
+     <http://transaction-ontology.org/oee.owl#isVerbPredicate>  true
+    
+    
+Individual: <http://transaction-ontology.org/oee.owl#Consume_(Spend)>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/consume-v.html"^^xsd:anyURI
+    
+    Types: 
+        <http://transaction-ontology.org/oee.owl#Consume_(Spend)>
+    
+    Facts:  
+     <http://transaction-ontology.org/oee.owl#isVerbPredicate>  true
+    
+    
+Individual: <http://transaction-ontology.org/oee.owl#Acquire>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/acquire-v.html"^^xsd:anyURI
+    
+    Types: 
+        <http://transaction-ontology.org/oee.owl#Acquire>
+    
+    Facts:  
+     <http://transaction-ontology.org/oee.owl#isVerbPredicate>  true
+    
+    
+Individual: <http://transaction-ontology.org/oee.owl#Clear>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/clear-v.html"^^xsd:anyURI
+    
+    Types: 
+        <http://transaction-ontology.org/oee.owl#Clear>
+    
+    Facts:  
+     <http://transaction-ontology.org/oee.owl#isVerbPredicate>  true
+    
+    
+Individual: <http://transaction-ontology.org/oee.owl#Acquisition>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/acquisition.xml"^^xsd:anyURI
+    
+    Types: 
+        <http://transaction-ontology.org/oee.owl#Acquire>
+    
+    Facts:  
+     <http://transaction-ontology.org/oee.owl#isNounPredicate>  true
+    
+    
+Individual: <http://transaction-ontology.org/oee.owl#Raise>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/raise-v.html"^^xsd:anyURI
+    
+    Types: 
+        <http://transaction-ontology.org/oee.owl#Raise>
+    
+    Facts:  
+     <http://transaction-ontology.org/oee.owl#isVerbPredicate>  true
+    
+    
+Individual: <http://transaction-ontology.org/oee.owl#Net>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/net-v.html"^^xsd:anyURI
+    
+    Types: 
+        <http://transaction-ontology.org/oee.owl#Net>
+    
+    Facts:  
+     <http://transaction-ontology.org/oee.owl#isVerbPredicate>  true
+    
+    
+Individual: <http://transaction-ontology.org/oee.owl#Spend>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/spend-v.html"^^xsd:anyURI
+    
+    Types: 
+        <http://transaction-ontology.org/oee.owl#Spend>
+    
+    Facts:  
+     <http://transaction-ontology.org/oee.owl#isVerbPredicate>  true
+    
+    
+Individual: <http://transaction-ontology.org/oee.owl#Borrow>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/borrow-v.html"^^xsd:anyURI
+    
+    Types: 
+        <http://transaction-ontology.org/oee.owl#Borrow>
+    
+    Facts:  
+     <http://transaction-ontology.org/oee.owl#isVerbPredicate>  true
+    
+    
+Individual: <http://transaction-ontology.org/oee.owl#Gross>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/gross-v.html"^^xsd:anyURI
+    
+    Types: 
+        <http://transaction-ontology.org/oee.owl#Gross>
+    
+    Facts:  
+     <http://transaction-ontology.org/oee.owl#isVerbPredicate>  true
+    
+    
+Individual: <http://transaction-ontology.org/oee.owl#Trade>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/trade-v.html"^^xsd:anyURI
+    
+    Types: 
+        <http://transaction-ontology.org/oee.owl#Trade>
+    
+    Facts:  
+     <http://transaction-ontology.org/oee.owl#isVerbPredicate>  true
+    
+    
+Individual: <http://transaction-ontology.org/oee.owl#Source>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/source-v.html"^^xsd:anyURI
+    
+    Types: 
+        <http://transaction-ontology.org/oee.owl#Source>
+    
+    Facts:  
+     <http://transaction-ontology.org/oee.owl#isVerbPredicate>  true
+    
+    
+Individual: <http://transaction-ontology.org/oee.owl#Take_in>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/take-v.html"^^xsd:anyURI
+    
+    Types: 
+        <http://transaction-ontology.org/oee.owl#Take_in>
+    
+    Facts:  
+     <http://transaction-ontology.org/oee.owl#isVerbPredicate>  true
+    
+    
+Individual: <http://transaction-ontology.org/oee.owl#Win_back>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/win-v.html"^^xsd:anyURI
+    
+    Types: 
+        <http://transaction-ontology.org/oee.owl#Win_back>
+    
+    Facts:  
+     <http://transaction-ontology.org/oee.owl#isVerbPredicate>  true
+    
+    
+Individual: <http://transaction-ontology.org/oee.owl#Realize>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/realize-v.html"^^xsd:anyURI
+    
+    Types: 
+        <http://transaction-ontology.org/oee.owl#Realize>
+    
+    Facts:  
+     <http://transaction-ontology.org/oee.owl#isVerbPredicate>  true
+    
+    
+Individual: <http://transaction-ontology.org/oee.owl#Turn>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/turn-v.html"^^xsd:anyURI
+    
+    Types: 
+        <http://transaction-ontology.org/oee.owl#Turn>
+    
+    Facts:  
+     <http://transaction-ontology.org/oee.owl#isVerbPredicate>  true
+    
+    
+Individual: <http://transaction-ontology.org/oee.owl#Bribe>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/bribe-v.html"^^xsd:anyURI
+    
+    Types: 
+        <http://transaction-ontology.org/oee.owl#Bribe>
+    
+    Facts:  
+     <http://transaction-ontology.org/oee.owl#isVerbPredicate>  true
+    
+    
+Individual: <http://transaction-ontology.org/oee.owl#Deposit>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/deposit-v.html"^^xsd:anyURI
+    
+    Types: 
+        <http://transaction-ontology.org/oee.owl#Deposit>
+    
+    Facts:  
+     <http://transaction-ontology.org/oee.owl#isVerbPredicate>  true
+    
+    
+Individual: <http://transaction-ontology.org/oee.owl#Sell>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/sell-v.html"^^xsd:anyURI
+    
+    Types: 
+        <http://transaction-ontology.org/oee.owl#Sell>
+    
+    Facts:  
+     <http://transaction-ontology.org/oee.owl#isVerbPredicate>  true
+    
+    
+Individual: <http://transaction-ontology.org/oee.owl#Buy_back>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/buy-v.html"^^xsd:anyURI
+    
+    Types: 
+        <http://transaction-ontology.org/oee.owl#Buy_back>
+    
+    Facts:  
+     <http://transaction-ontology.org/oee.owl#isVerbPredicate>  true
+    
+    
+Individual: <http://transaction-ontology.org/oee.owl#Retail>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/retail-v.html"^^xsd:anyURI
+    
+    Types: 
+        <http://transaction-ontology.org/oee.owl#Retail>
+    
+    Facts:  
+     <http://transaction-ontology.org/oee.owl#isVerbPredicate>  true
+    
+    
+Individual: <http://transaction-ontology.org/oee.owl#Make_(Earn)>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/make-v.html"^^xsd:anyURI
+    
+    Types: 
+        <http://transaction-ontology.org/oee.owl#Make_(Earn)>
+    
+    Facts:  
+     <http://transaction-ontology.org/oee.owl#isVerbPredicate>  true
+    
+    
+Individual: <http://transaction-ontology.org/oee.owl#Waste>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/waste-v.html"^^xsd:anyURI
+    
+    Types: 
+        <http://transaction-ontology.org/oee.owl#Waste>
+    
+    Facts:  
+     <http://transaction-ontology.org/oee.owl#isVerbPredicate>  true
+    
+    
+Individual: <http://transaction-ontology.org/oee.owl#Clear_(Sell)>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/clear-v.html"^^xsd:anyURI
+    
+    Types: 
+        <http://transaction-ontology.org/oee.owl#Clear_(Sell)>
+    
+    Facts:  
+     <http://transaction-ontology.org/oee.owl#isVerbPredicate>  true
+    
+    
+Individual: <http://transaction-ontology.org/oee.owl#Secure>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/secure-v.html"^^xsd:anyURI
+    
+    Types: 
+        <http://transaction-ontology.org/oee.owl#Secure>
+    
+    Facts:  
+     <http://transaction-ontology.org/oee.owl#isVerbPredicate>  true
+    
+    
+Individual: <http://transaction-ontology.org/oee.owl#Earn>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/earn-v.html
+"^^xsd:anyURI
+    
+    Types: 
+        <http://transaction-ontology.org/oee.owl#Earn>
+    
+    Facts:  
+     <http://transaction-ontology.org/oee.owl#isVerbPredicate>  true
+    
+    
+Individual: <http://transaction-ontology.org/oee.owl#Take>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/take-v.html"^^xsd:anyURI
+    
+    Types: 
+        <http://transaction-ontology.org/oee.owl#Take>
+    
+    Facts:  
+     <http://transaction-ontology.org/oee.owl#isVerbPredicate>  true
+    
+    
+Individual: <http://transaction-ontology.org/oee.owl#Collect>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/collect-v.html"^^xsd:anyURI
+    
+    Types: 
+        <http://transaction-ontology.org/oee.owl#Collect>
+    
+    Facts:  
+     <http://transaction-ontology.org/oee.owl#isVerbPredicate>  true
+    
+    
+Individual: <http://transaction-ontology.org/oee.owl#Purchase>
+
+    Annotations: 
+        rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/purchase-v.html"^^xsd:anyURI
+    
+    Types: 
+        <http://transaction-ontology.org/oee.owl#Purchase>
+    
+    Facts:  
+     <http://transaction-ontology.org/oee.owl#isVerbPredicate>  true
+    
+    
+Individual: _:http://transaction-ontology.org/oee.owl#genid1430718473587067000
+
+    Types: 
+        <http://transaction-ontology.org/oee.owl#Take>
+    
+    

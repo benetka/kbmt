@@ -1,0 +1,1289 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://transaction-ontology.org/oee.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://transaction-ontology.org/oee.owl">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <Literal datatypeIRI="&xsd;string">http://transaction-ontology.org/</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <Literal datatypeIRI="&xsd;string">Ontology of Monetary Transactions</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Accept"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Acquire"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Borrow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bribe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Buy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Buy_back"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clean_up"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clear_(Sell)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Collect"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Consume_(Spend)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Contribute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Decrement_Economic_Event_Type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Deposit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Donate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Earn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Economic_Event_Type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fund"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fundraise"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Get"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Give"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gross"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Increment_Economic_Event_Type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Inherit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Invest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Make_(Earn)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Market"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Net"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Obtain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Outsource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Profit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Purchase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Raise"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Realize"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Receive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Retail"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Secure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Source"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Speculate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Spend"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Subscribe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Take"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Take_(Buy)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Take_in"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Take_over"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Turn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Waste"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Win_back"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Yield"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isNounPredicate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isVerbPredicate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Accept"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Acquire"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Acquisition"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Borrow"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bribe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Buy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Buy_back"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Clean_up"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Clear"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Clear_(Sell)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Collect"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Consume_(Spend)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Contribute"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Deposit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Donate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Earn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fund"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fundraise"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Get"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Give"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gross"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Inherit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Invest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Make_(Earn)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Market"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Net"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Obtain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Outsource"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pay"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Profit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Purchase"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Raise"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Realize"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Receive"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Retail"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Secure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sell"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Shop"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Source"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Speculate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Spend"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Subscribe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Take"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Take_(buy)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Take_in"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Take_over"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Trade"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Turn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Waste"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Win_back"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Yield"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Accept"/>
+        <Class IRI="#Receive"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Acquire"/>
+        <Class IRI="#Take"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Borrow"/>
+        <Class IRI="#Accept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bribe"/>
+        <Class IRI="#Pay"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Buy"/>
+        <Class IRI="#Acquire"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Buy_back"/>
+        <Class IRI="#Purchase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clean_up"/>
+        <Class IRI="#Profit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clear"/>
+        <Class IRI="#Yield"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clear_(Sell)"/>
+        <Class IRI="#Sell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Collect"/>
+        <Class IRI="#Take"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Consume_(Spend)"/>
+        <Class IRI="#Spend"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Contribute"/>
+        <Class IRI="#Give"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Decrement_Economic_Event_Type"/>
+        <Class IRI="#Economic_Event_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Deposit"/>
+        <Class IRI="#Give"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Donate"/>
+        <Class IRI="#Give"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Earn"/>
+        <Class IRI="#Get"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fund"/>
+        <Class IRI="#Invest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fundraise"/>
+        <Class IRI="#Raise"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Get"/>
+        <Class IRI="#Take"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Give"/>
+        <Class IRI="#Decrement_Economic_Event_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gross"/>
+        <Class IRI="#Earn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Increment_Economic_Event_Type"/>
+        <Class IRI="#Economic_Event_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inherit"/>
+        <Class IRI="#Receive"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Invest"/>
+        <Class IRI="#Spend"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Make_(Earn)"/>
+        <Class IRI="#Get"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Market"/>
+        <Class IRI="#Sell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Net"/>
+        <Class IRI="#Yield"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Obtain"/>
+        <Class IRI="#Acquire"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Outsource"/>
+        <Class IRI="#Source"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pay"/>
+        <Class IRI="#Give"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Profit"/>
+        <Class IRI="#Earn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Purchase"/>
+        <Class IRI="#Acquire"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Raise"/>
+        <Class IRI="#Collect"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Realize"/>
+        <Class IRI="#Get"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Receive"/>
+        <Class IRI="#Acquire"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Retail"/>
+        <Class IRI="#Sell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Secure"/>
+        <Class IRI="#Obtain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sell"/>
+        <Class IRI="#Give"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shop"/>
+        <Class IRI="#Obtain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Source"/>
+        <Class IRI="#Obtain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Speculate"/>
+        <Class IRI="#Invest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spend"/>
+        <Class IRI="#Pay"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Subscribe"/>
+        <Class IRI="#Purchase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Take"/>
+        <Class IRI="#Increment_Economic_Event_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Take_(Buy)"/>
+        <Class IRI="#Buy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Take_in"/>
+        <Class IRI="#Get"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Take_over"/>
+        <Class IRI="#Purchase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trade"/>
+        <Class IRI="#Sell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Turn"/>
+        <Class IRI="#Acquire"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Waste"/>
+        <Class IRI="#Spend"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Win_back"/>
+        <Class IRI="#Get"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yield"/>
+        <Class IRI="#Take_in"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Decrement_Economic_Event_Type"/>
+        <Class IRI="#Increment_Economic_Event_Type"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Accept"/>
+        <NamedIndividual IRI="#Accept"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Acquire"/>
+        <NamedIndividual IRI="#Acquire"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Acquire"/>
+        <NamedIndividual IRI="#Acquisition"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Borrow"/>
+        <NamedIndividual IRI="#Borrow"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bribe"/>
+        <NamedIndividual IRI="#Bribe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Buy"/>
+        <NamedIndividual IRI="#Buy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Buy_back"/>
+        <NamedIndividual IRI="#Buy_back"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Clean_up"/>
+        <NamedIndividual IRI="#Clean_up"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Clear"/>
+        <NamedIndividual IRI="#Clear"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Clear_(Sell)"/>
+        <NamedIndividual IRI="#Clear_(Sell)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Collect"/>
+        <NamedIndividual IRI="#Collect"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Consume_(Spend)"/>
+        <NamedIndividual IRI="#Consume_(Spend)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Contribute"/>
+        <NamedIndividual IRI="#Contribute"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Deposit"/>
+        <NamedIndividual IRI="#Deposit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Donate"/>
+        <NamedIndividual IRI="#Donate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Earn"/>
+        <NamedIndividual IRI="#Earn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fund"/>
+        <NamedIndividual IRI="#Fund"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fundraise"/>
+        <NamedIndividual IRI="#Fundraise"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Get"/>
+        <NamedIndividual IRI="#Get"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Give"/>
+        <NamedIndividual IRI="#Give"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gross"/>
+        <NamedIndividual IRI="#Gross"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Inherit"/>
+        <NamedIndividual IRI="#Inherit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Invest"/>
+        <NamedIndividual IRI="#Invest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Make_(Earn)"/>
+        <NamedIndividual IRI="#Make_(Earn)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Market"/>
+        <NamedIndividual IRI="#Market"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Net"/>
+        <NamedIndividual IRI="#Net"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Obtain"/>
+        <NamedIndividual IRI="#Obtain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Outsource"/>
+        <NamedIndividual IRI="#Outsource"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pay"/>
+        <NamedIndividual IRI="#Pay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Profit"/>
+        <NamedIndividual IRI="#Profit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Purchase"/>
+        <NamedIndividual IRI="#Purchase"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Raise"/>
+        <NamedIndividual IRI="#Raise"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Realize"/>
+        <NamedIndividual IRI="#Realize"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Receive"/>
+        <NamedIndividual IRI="#Receive"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Retail"/>
+        <NamedIndividual IRI="#Retail"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Secure"/>
+        <NamedIndividual IRI="#Secure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sell"/>
+        <NamedIndividual IRI="#Sell"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Shop"/>
+        <NamedIndividual IRI="#Shop"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Source"/>
+        <NamedIndividual IRI="#Source"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speculate"/>
+        <NamedIndividual IRI="#Speculate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Spend"/>
+        <NamedIndividual IRI="#Spend"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Subscribe"/>
+        <NamedIndividual IRI="#Subscribe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Take"/>
+        <NamedIndividual IRI="#Take"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Take_(Buy)"/>
+        <NamedIndividual IRI="#Take_(buy)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Take_in"/>
+        <NamedIndividual IRI="#Take_in"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Take_over"/>
+        <NamedIndividual IRI="#Take_over"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Trade"/>
+        <NamedIndividual IRI="#Trade"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Turn"/>
+        <NamedIndividual IRI="#Turn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Waste"/>
+        <NamedIndividual IRI="#Waste"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Win_back"/>
+        <NamedIndividual IRI="#Win_back"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Yield"/>
+        <NamedIndividual IRI="#Yield"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Take"/>
+        <AnonymousIndividual nodeID="_:http://transaction-ontology.org/oee.owl#genid1430718473587067000"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isVerbPredicate"/>
+        <NamedIndividual IRI="#Accept"/>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isVerbPredicate"/>
+        <NamedIndividual IRI="#Acquire"/>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isNounPredicate"/>
+        <NamedIndividual IRI="#Acquisition"/>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isVerbPredicate"/>
+        <NamedIndividual IRI="#Borrow"/>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isVerbPredicate"/>
+        <NamedIndividual IRI="#Bribe"/>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isVerbPredicate"/>
+        <NamedIndividual IRI="#Buy"/>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isVerbPredicate"/>
+        <NamedIndividual IRI="#Buy_back"/>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isVerbPredicate"/>
+        <NamedIndividual IRI="#Clean_up"/>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isVerbPredicate"/>
+        <NamedIndividual IRI="#Clear"/>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isVerbPredicate"/>
+        <NamedIndividual IRI="#Clear_(Sell)"/>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isVerbPredicate"/>
+        <NamedIndividual IRI="#Collect"/>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isVerbPredicate"/>
+        <NamedIndividual IRI="#Consume_(Spend)"/>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isVerbPredicate"/>
+        <NamedIndividual IRI="#Contribute"/>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isVerbPredicate"/>
+        <NamedIndividual IRI="#Deposit"/>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isVerbPredicate"/>
+        <NamedIndividual IRI="#Donate"/>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isVerbPredicate"/>
+        <NamedIndividual IRI="#Earn"/>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isVerbPredicate"/>
+        <NamedIndividual IRI="#Fund"/>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isVerbPredicate"/>
+        <NamedIndividual IRI="#Fundraise"/>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isVerbPredicate"/>
+        <NamedIndividual IRI="#Get"/>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isVerbPredicate"/>
+        <NamedIndividual IRI="#Give"/>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isVerbPredicate"/>
+        <NamedIndividual IRI="#Gross"/>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isVerbPredicate"/>
+        <NamedIndividual IRI="#Inherit"/>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isVerbPredicate"/>
+        <NamedIndividual IRI="#Invest"/>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isVerbPredicate"/>
+        <NamedIndividual IRI="#Make_(Earn)"/>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isVerbPredicate"/>
+        <NamedIndividual IRI="#Market"/>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isVerbPredicate"/>
+        <NamedIndividual IRI="#Net"/>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isVerbPredicate"/>
+        <NamedIndividual IRI="#Obtain"/>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isVerbPredicate"/>
+        <NamedIndividual IRI="#Outsource"/>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isVerbPredicate"/>
+        <NamedIndividual IRI="#Pay"/>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isVerbPredicate"/>
+        <NamedIndividual IRI="#Profit"/>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isVerbPredicate"/>
+        <NamedIndividual IRI="#Purchase"/>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isVerbPredicate"/>
+        <NamedIndividual IRI="#Raise"/>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isVerbPredicate"/>
+        <NamedIndividual IRI="#Realize"/>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isVerbPredicate"/>
+        <NamedIndividual IRI="#Receive"/>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isVerbPredicate"/>
+        <NamedIndividual IRI="#Retail"/>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isVerbPredicate"/>
+        <NamedIndividual IRI="#Secure"/>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isVerbPredicate"/>
+        <NamedIndividual IRI="#Sell"/>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isVerbPredicate"/>
+        <NamedIndividual IRI="#Shop"/>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isVerbPredicate"/>
+        <NamedIndividual IRI="#Source"/>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isVerbPredicate"/>
+        <NamedIndividual IRI="#Speculate"/>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isVerbPredicate"/>
+        <NamedIndividual IRI="#Spend"/>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isVerbPredicate"/>
+        <NamedIndividual IRI="#Subscribe"/>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isVerbPredicate"/>
+        <NamedIndividual IRI="#Take"/>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isVerbPredicate"/>
+        <NamedIndividual IRI="#Take_(buy)"/>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isVerbPredicate"/>
+        <NamedIndividual IRI="#Take_in"/>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isVerbPredicate"/>
+        <NamedIndividual IRI="#Take_over"/>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isVerbPredicate"/>
+        <NamedIndividual IRI="#Trade"/>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isVerbPredicate"/>
+        <NamedIndividual IRI="#Turn"/>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isVerbPredicate"/>
+        <NamedIndividual IRI="#Waste"/>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isVerbPredicate"/>
+        <NamedIndividual IRI="#Win_back"/>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isVerbPredicate"/>
+        <NamedIndividual IRI="#Yield"/>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DisjointDataProperties>
+        <DataProperty IRI="#isNounPredicate"/>
+        <DataProperty IRI="#isVerbPredicate"/>
+    </DisjointDataProperties>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Accept</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://verbs.colorado.edu/propbank/framesets-english/accept-v.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Acquire</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://verbs.colorado.edu/propbank/framesets-english/acquire-v.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Acquisition</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/acquisition.xml</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Borrow</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://verbs.colorado.edu/propbank/framesets-english/borrow-v.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Bribe</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://verbs.colorado.edu/propbank/framesets-english/bribe-v.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Buy</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://verbs.colorado.edu/propbank/framesets-english/buy-v.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Buy_back</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://verbs.colorado.edu/propbank/framesets-english/buy-v.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Clean_up</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://verbs.colorado.edu/propbank/framesets-english/clean-v.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Clear</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://verbs.colorado.edu/propbank/framesets-english/clear-v.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Clear_(Sell)</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://verbs.colorado.edu/propbank/framesets-english/clear-v.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Collect</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://verbs.colorado.edu/propbank/framesets-english/collect-v.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Consume_(Spend)</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://verbs.colorado.edu/propbank/framesets-english/consume-v.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Contribute</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://verbs.colorado.edu/propbank/framesets-english/contribute-v.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Deposit</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://verbs.colorado.edu/propbank/framesets-english/deposit-v.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Donate</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://verbs.colorado.edu/propbank/framesets-english/donate-v.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Earn</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://verbs.colorado.edu/propbank/framesets-english/earn-v.html
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Fund</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://verbs.colorado.edu/propbank/framesets-english/fund-v.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Fundraise</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://verbs.colorado.edu/propbank/framesets-english/fundraise-v.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Get</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://verbs.colorado.edu/propbank/framesets-english/get-v.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Give</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://verbs.colorado.edu/propbank/framesets-english/give-v.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Gross</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://verbs.colorado.edu/propbank/framesets-english/gross-v.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Inherit</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://verbs.colorado.edu/propbank/framesets-english/inherit-v.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Invest</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://verbs.colorado.edu/propbank/framesets-english/invest-v.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Make_(Earn)</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://verbs.colorado.edu/propbank/framesets-english/make-v.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Market</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://verbs.colorado.edu/propbank/framesets-english/market-v.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Net</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://verbs.colorado.edu/propbank/framesets-english/net-v.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Obtain</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://verbs.colorado.edu/propbank/framesets-english/obtain-v.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Outsource</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://verbs.colorado.edu/propbank/framesets-english/outsource-v.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Pay</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://verbs.colorado.edu/propbank/framesets-english/pay-v.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Profit</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://verbs.colorado.edu/propbank/framesets-english/profit-v.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Purchase</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://verbs.colorado.edu/propbank/framesets-english/purchase-v.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Raise</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://verbs.colorado.edu/propbank/framesets-english/raise-v.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Realize</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://verbs.colorado.edu/propbank/framesets-english/realize-v.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Receive</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://verbs.colorado.edu/propbank/framesets-english/receive-v.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Retail</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://verbs.colorado.edu/propbank/framesets-english/retail-v.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Secure</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://verbs.colorado.edu/propbank/framesets-english/secure-v.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Sell</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://verbs.colorado.edu/propbank/framesets-english/sell-v.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Shop</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://verbs.colorado.edu/propbank/framesets-english/shop-v.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Source</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://verbs.colorado.edu/propbank/framesets-english/source-v.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Speculate</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://verbs.colorado.edu/propbank/framesets-english/speculate-v.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Spend</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://verbs.colorado.edu/propbank/framesets-english/spend-v.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Subscribe</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://verbs.colorado.edu/propbank/framesets-english/subscribe-v.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Take</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://verbs.colorado.edu/propbank/framesets-english/take-v.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Take_(buy)</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://verbs.colorado.edu/propbank/framesets-english/take-v.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Take_in</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://verbs.colorado.edu/propbank/framesets-english/take-v.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Take_over</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://verbs.colorado.edu/propbank/framesets-english/take-v.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Trade</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://verbs.colorado.edu/propbank/framesets-english/trade-v.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Turn</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://verbs.colorado.edu/propbank/framesets-english/turn-v.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Waste</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://verbs.colorado.edu/propbank/framesets-english/waste-v.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Win_back</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://verbs.colorado.edu/propbank/framesets-english/win-v.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Yield</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://verbs.colorado.edu/propbank/framesets-english/yield-v.html</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

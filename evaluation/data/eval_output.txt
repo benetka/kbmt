@@ -1,0 +1,162 @@
+Missed    => FN     3Com                                    Chipcom                                           700000000                     28/07/1995                    
+Correct   => TP     3Com                                    U.S. Robotics                                     7300000000                    1997                          
+Missed    => FN     Adobe                                   Aldus Corp                                        150000000                     1994                          
+Missed    => FN     Adobe                                   Frame Technology                                  500000000                     22/03/1996                    
+Missed    => FN     Adobe                                   Macromedia                                        3400000000                    18/04/2005                    
+Missed    => FN     Amazon                                  Alexa                                             300000000                     03/05/1999                    
+Correct   => TP     Amazon                                  IMDB                                              55000000                      28/05/2006                    
+Missed    => FN     Amazon                                  Joyo.com                                          75000000                      09/08/2005                    
+Missed    => FN     Amazon                                  PlanetAll (Planet All)                            93000000                      01/08/1998                    
+Correct   => TP     Apple                                   NeXT                                              400000000                     01/12/1996                    
+Missed    => FN     Apple                                   Power Computing Corporation (Power Computing of Austin)100000000                     07/09/1997                    
+Missed    => FN     Ask.com                                 Teoma Technologies                                4000000                       2001                          
+Missed    => FN     Cisco                                   Airespace                                         450000000                     01/01/2005                    
+Missed    => FN     Cisco                                   Aironet Wireless Communications                   799000000                     10/11/1999                    
+Missed    => FN     Cisco                                   Andiamo Systems                                   74000000                      04/02/2004                    
+Correct   => TP     Cisco                                   ArrowPoint Communications                         5700000000                    06/05/2000                    
+Missed    => FN     Cisco                                   CALISTA                                           135000000                     02/09/2000                    
+Missed    => FN     Cisco                                   Cerent                                            7300000000                    01/11/1999                    
+Missed    => FN     Cisco                                   Clarity Wireless                                  52000000                      1998                          
+Missed    => FN     Cisco                                   Combinet                                          114000000                     14/08/1995                    
+Missed    => FN     Cisco                                   Crescendo Communications                          89000000                      23/06/2002                    
+Missed    => FN     Cisco                                   ExiO Communications                               155000000                     15/12/2000                    
+Missed    => FN     Cisco                                   Fibex Systems                                     320000000                     1999                          
+Missed    => FN     Cisco                                   GeoTel Communications                             2000000000                    14/04/1999                    
+Missed    => FN     Cisco                                   HyNEX                                             1370000000                    2001                          
+Missed    => FN     Cisco                                   Internet Engineering Group                        1370000000                    2001                          
+Missed    => FN     Cisco                                   IPmobile                                          1370000000                    2001                          
+Missed    => FN     Cisco                                   Kalpana                                           204000000                     25/10/1994                    
+Missed    => FN     Cisco                                   Komodo Technology                                 1370000000                    2001                          
+Missed    => FN     Cisco                                   Monterey Networks                                 7400000000                    26/08/1999                    
+Missed    => FN     Cisco                                   Netiverse                                         1370000000                    2001                          
+Missed    => FN     Cisco                                   NetSys Technologies                               79000000                      01/10/1996                    
+Missed    => FN     Cisco                                   Pirelli Optical Systems                           2850000000                    10/05/2000                    
+Missed    => FN     Cisco                                   Qeyton Systems                                    1390000000                    09/08/2000                    
+Correct   => TP     Cisco                                   StrataCom                                         4000000000                    1996                          
+Missed    => FN     Cisco                                   Tasmania Network Systems                          135000000                     09/02/2000                    
+Correct   => TP     Cisco                                   The Linksys Group                                 480000000                     2003                          
+Missed    => FN     Cisco                                   Worldwide Data Systems                            135000000                     09/02/2000                    
+Missed    => FN     CNET Networks                           MySimon.com                                       700000000                     01/01/2000                    
+Missed    => FN     CNET Networks                           Webshots                                          70000000                      26/07/2004                    
+Correct   => TP     eBay                                    Baazee                                            50000000                      01/06/2004                    
+Missed    => FN     eBay                                    Billpoint                                         125000000                     1998                          
+Correct   => TP     eBay                                    Eachnet                                           180000000                     08/08/2005                    
+Missed    => FN     eBay                                    PayPal                                            1500000000                    2002                          
+Correct   => TP     eBay                                    Shopping.com                                      620000000                     2005                          
+Correct   => TP     eBay                                    Skype                                             2600000000                    2005                          
+Correct   => TP     Electronic Arts                         Broderbund Software                               400000000                     04/05/1994                    
+Missed    => FN     Electronic Arts                         Digital Illusions                                 9000000                       13/02/2003                    
+Missed    => FN     Electronic Arts                         Distinctive Software                              10000000                      19/06/1991                    
+Correct   => TP     Electronic Arts                         Jamdat Mobile                                     680000000                     2006                          
+Missed    => FN     Fox Interactive Media                   IGN Entertainment                                 650000000                     09/09/2005                    
+Missed    => FN     Fox Interactive Media                   Scout.com                                         60000000                      16/08/2005                    
+Correct   => TP     Google                                  Baidu (2.5 percent stake in baidu.com)            5000000                       08/08/2005                    
+Correct   => TP     Google                                  dMarc Broadcasting                                1240000000                    15/01/2006                    
+Correct   => TP     Google                                  DoubleClick                                       3100000000                    30/04/2007                    
+Missed    => FN     Google                                  Mr. Neven's company                               40000000                      18/01/2007                    
+Missed    => FN     Google                                  Picasa                                            30                            20/01/2005                    
+Correct   => TP     Google                                  Urchin Software                                   30000000                      14/11/2005                    
+Correct   => TP     Google                                  YouTube                                           1650000000                    01/10/2006                    
+Correct   => TP     Hewlett-Packard                         Apollo Computer                                   600000000                     13/04/1989                    
+Missed    => FN     Hewlett-Packard                         Bluestone Software                                467000000                     25/10/2000                    
+Correct   => TP     Hewlett-Packard                         Compaq                                            25000000000                   04/09/2001                    
+Missed    => FN     Hewlett-Packard                         Convex Computer                                   18000000                      19/03/1992                    
+Missed    => FN     Hewlett-Packard                         Mercury Interactive                               4500000000                    27/08/2006                    
+Missed    => FN     Hewlett-Packard                         StorageApps                                       350000000                     26/07/2001                    
+Missed    => FN     IBM                                     Ascential Software                                1100000000                    15/03/2005                    
+Correct   => TP     IBM                                     FileNet Corporation                               1600000000                    11/08/2006                    
+Correct   => TP     IBM                                     Informix                                          1000000000                    2001                          
+Missed    => FN     IBM                                     Internet Security Systems                         1300000000                    24/08/2006                    
+Missed    => FN     IBM                                     Lotus Development Corporation                     3520000000                    1995                          
+Missed    => FN     IBM                                     Micromuse                                         865000000                     21/12/2005                    
+Correct   => TP     IBM                                     MRO Software                                      740000000                     04/08/2006                    
+Missed    => FN     IBM                                     PwC Consulting                                    3500000000                    07/12/2002                    
+Missed    => FN     IBM                                     Rational Software                                 2100000000                    15/12/2002                    
+Correct   => TP     IBM                                     Tivoli Systems                                    783000000                     1996                          
+Missed    => FN     Intel                                   Chips and Technologies                            384000000                     03/08/1997                    
+Missed    => FN     Converse                                Converse                                          305000000                     10/07/2003                    
+Correct   => TP     Intel                                   Digital Equipment Corporation                     700000000                     28/10/1997                    
+Missed    => FN     Intel                                   Kimo                                              132300000                     10/11/2000                    
+Correct   => TP     Intel                                   Level One Communications                          2200000000                    05/03/1999                    
+Missed    => FN     Intel                                   Musicmatch                                        160000000                     14/09/2004                    
+Missed    => FN     Intel                                   Oddpost                                           30000000                      13/07/2004                    
+Missed    => FN     Intel                                   Xircom                                            52000000                      16/01/1997                    
+Missed    => FN     Nokia                                   Ramp Networks                                     126000000                     08/12/2000                    
+Missed    => FN     Oracle Corporation                      eTravel                                           35000000                      1999                          
+Correct   => TP     Oracle Corporation                      Hyperion Solutions                                3100000000                    01/03/2007                    
+Correct   => TP     Oracle Corporation                      PeopleSoft                                        10300000000                   01/12/2004                    
+Correct   => TP     Oracle Corporation                      Retek                                             631000000                     23/09/2005                    
+Correct   => TP     Oracle Corporation                      Siebel Systems                                    5850000000                    01/01/2006                    
+Missed    => FN     Real Networks                           Xing Technology                                   75000000                      14/04/1999                    
+Correct   => TP     Symantec                                @Stake                                            48000000                      14/12/2004                    
+Missed    => FN     Symantec                                Brightmail                                        370000000                     05/06/2005                    
+Missed    => FN     Symantec                                Peter Norton Computing                            70000000                      15/05/1990                    
+Correct   => TP     Symantec                                Veritas                                           13500000000                   02/01/2005                    
+Missed    => FN     The New York Times                      About.com                                         410000000                     2005                          
+Missed    => FN     The New York Times                      Telegram & Gazette                                295000000                     15/10/1999                    
+Missed    => FN     The Walt Disney Company                 ABC                                               19000000000                   01/08/1995                    
+Missed    => FN     The Walt Disney Company                 Child World                                       157000000                     31/07/1990                    
+Missed    => FN     The Walt Disney Company                 Fox Family Worldwide                              3000000000                    01/07/2001                    
+Missed    => FN     The Walt Disney Company                 Henson (Jim Henson Productions)                   150000000                     19/12/1991                    
+Missed    => FN     The Walt Disney Company                 Infoseek Inc.                                     900000000                     07/06/1998                    
+Missed    => FN     The Walt Disney Company                 Pixar                                             7400000000                    28/01/2006                    
+Missed    => FN     UPS                                     IML Air Services Group Ltd.                       37000000                      20/01/1989                    
+Correct   => TP     Yahoo!                                  Broadcast.com                                     5000000000                    25/11/2006                    
+Missed    => FN     Yahoo!                                  eGroups                                           720000000                     2001                          
+Correct   => TP     Yahoo!                                  GeoCities                                         3600000000                    14/02/1999                    
+Missed    => FN     Yahoo!                                  Hotjobs                                           436000000                     13/12/2001                    
+Correct   => TP     Yahoo!                                  Inktomi                                           235000000                     24/12/2002                    
+Missed    => FN     Yahoo!                                  Online Anywhere                                   80000000                      1999                          
+Correct   => TP     Yahoo!                                  Overture Services                                 1600000000                    2003                          
+Missed    => FN     Yahoo!                                  Right Media                                       680000000                     19/05/2007                    
+Missed    => FN     Yahoo!                                  Webcal                                            12000000                      01/07/1998                    
+Missed    => FN     Yahoo!                                  Yoyodyne Entertainment                            250000000                     1998                          
+Incorrect => FP     Apple                                   Palm                                              325000000.0                   2007                          
+Incorrect => FP     Intel                                   ATI Technologies                                  5600000000.0                  2006                          
+Incorrect => FP     Systems                                 Internet                                          34000000.0                    1994                          
+Incorrect => FP     Walt Disney                             Capital Cities/ABC                                19000000000.0                 1995                          
+Incorrect => FP     I.B.M.                                  Group                                             250000000.0                   1988                          
+Incorrect => FP     CBS                                     Infinity                                          4900000000.0                  1999                          
+Incorrect => FP     Systems                                 Advertising                                       27000000.0                    1996                          
+Incorrect => FP     EBay                                    ubid                                              9500000                       2002                          
+Incorrect => FP     Apple                                   Apple                                             400000000.0                   1996                          
+Incorrect => FP     Walt Disney Company                     NBC                                               19000000000.0                 1995                          
+Incorrect => FP     Apple                                   Mr                                                400000000.0                   1996                          
+Incorrect => FP     I.B.M.                                  I.B.M.                                            41                            1993                          
+Incorrect => FP     Intel                                   Ontario                                           5600000000.0                  2006                          
+Incorrect => FP     EBay                                    iBazar                                            100000000.0                   2001                          
+Incorrect => FP     Nokia                                   Internet                                          126000000.0                   2000                          
+Incorrect => FP     eBay                                    Internet                                          2600000000.0                  2005                          
+Incorrect => FP     Google                                  Mr                                                40000000.0                    2007                          
+Incorrect => FP     I.B.M.                                  MCI                                               400000000.0                   1988                          
+Incorrect => FP     3Com                                    Palm                                              6600000000.0                  1997                          
+Incorrect => FP     The New York Times                      The Boston Globe                                  1100000000.0                  1997                          
+Incorrect => FP     Google                                  AOL                                               1000000000.0                  2006                          
+Incorrect => FP     Nike                                    Taylor                                            305000000.0                   2003                          
+Incorrect => FP     Systems                                 Burlington                                        51000000.0                    1997                          
+Incorrect => FP     Apple                                   Software                                          400000000.0                   1997                          
+Incorrect => FP     Google                                  aQuantive                                         3100000000.0                  2007                          
+Incorrect => FP     Cisco Systems                           Internet                                          6000000000.0                  2000                          
+Incorrect => FP     Systems                                 Technology                                        6000000                       1987                          
+Incorrect => FP     Nokia                                   Loudeye                                           60000000.0                    2006                          
+Incorrect => FP     Systems                                 Systems                                           51000000.0                    1997                          
+Incorrect => FP     Systems                                 Supermac                                          6000000                       1987                          
+Incorrect => FP     Hewlett-Packard                         Computer                                          23600000000.0                 2001                          
+Incorrect => FP     EBay                                    Group                                             100000000.0                   2001                          
+Incorrect => FP     eBay                                    Siebel                                            5800000000.0                  2005                          
+
+----
+value tolerance: -1
+years tolerance: -1
+----
+sum: TP(35) + FP(33) = 68
+# transactions test: 	68
+# transactions gt: 		113
+----
+correct (TP):    35
+missed (FN):     78
+incorrect (FP):  33
+----
+Precision:       0.514
+Recall:          0.309
+F1:              0.386
