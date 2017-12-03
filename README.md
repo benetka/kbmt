@@ -2,7 +2,8 @@
 
 This repository contains resources developed within the following paper:
 
-	Towards Building a Knowledge Base of Monetary Transactions from a News Collection, J. Benetka, K. Balog, and K. Nørvåg. In proceedings of 17th ACM/IEEE-CS Joint Conference on Digital Libraries (JCDL ’17), June 2017.
+	Towards Building a Knowledge Base of Monetary Transactions from a News Collection, J. Benetka, K. Balog, and K. Nørvåg. 
+	In proceedings of 17th ACM/IEEE-CS Joint Conference on Digital Libraries (JCDL ’17), June 2017.
 
 
 You can find the [paper](https://github.com/benetka/kbmt/blob/master/benetka-2017-Towards_Building_a_Knowledge_Base_of_Monetary_Transactions.pdf) and the [presentation](https://github.com/benetka/kbmt/blob/master/presentation/benetka-kbmt-presentation-jcdl2017.pdf) as part of this repository.
@@ -36,7 +37,7 @@ If you use the resources presented in this repository, please cite:
 	title = {Towards Building a Knowledge Base of Monetary Transactions from a News Collection},
 	booktitle = {Proceedings of the 17th ACM/IEEE-CS Joint Conference on Digital Libraries},
 	series = {JCDL '17},
-  doi = {10.1109/JCDL.2017.7991575},
+	doi = {10.1109/JCDL.2017.7991575},
 	year = {2017}
 }
 ```
