@@ -6,7 +6,7 @@ This repository contains resources developed within the following paper:
 	In proceedings of 17th ACM/IEEE-CS Joint Conference on Digital Libraries (JCDL ’17), June 2017.
 
 
-You can find the [paper](https://github.com/benetka/kbmt/blob/master/benetka-2017-Towards_Building_a_Knowledge_Base_of_Monetary_Transactions.pdf) and the [presentation](https://github.com/benetka/kbmt/blob/master/presentation/benetka-kbmt-presentation-jcdl2017.pdf) as part of this repository.
+You can find the [paper](https://github.com/benetka/kbmt/blob/master/benetka-2017-Towards_Building_a_Knowledge_Base_of_Monetary_Transactions.pdf) and the [presentation](https://github.com/benetka/kbmt/blob/master/presentation/benetka-kbmt-presentation-jcdl2017.pdf) in this repository.
 
 ## Contents of the repository
 This repository contains resources used and described in the paper.
